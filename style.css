@@ -241,7 +241,7 @@ svg:hover {
     }
 }
 
-@media (max-width:768px){
+@media (max-width:767px){
     .pattern-1 {
         display: none;
     }
@@ -345,5 +345,16 @@ svg:hover {
     .equalizer p {
         width: 297px;
         margin-bottom: 64px;
+    }
+}
+
+@media (max-width: 392px) {
+    .premium {
+        padding: 48px 28px;
+        width: 357px;
+    }
+
+    .android-download-btn {
+        padding: 15px 58px;
     }
 }
