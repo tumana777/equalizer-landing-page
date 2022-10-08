@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+body {
+    position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-image: url(img/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pattern-1 {
+    position: absolute;
+    right: 0;
+    top: -107px;
+    z-index: -99;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 62px auto 91px;
+}
+
+h1 {
+    margin-top: 127px;
+    margin-bottom: 40px;
+    width: 850px;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    color: #191826;
+}
+
+.intro p {
+    width: 850px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #191826;
+}
+
+.middle {
+    position: relative;
+    margin: 321px 0 202px;
+    width: 100%;
+    height: 600px;
+    background-color: #191826;
+    border-radius: 12px;
+}
+
+.illustration-img {
+    position: absolute;
+    top: -213px;
+    left: 10%;
+    width: 300px;
+    z-index: 2;
+}
+
+.pattern-2 {
+    position: absolute;
+    top: -50px;
+    left: 30%;
+    z-index: 1;
+}
+
+.premium {
+    position: absolute;
+    top: 90px;
+    right: 10%;
+    width: 446px;
+    height: 625px;
+    padding: 58px 59px 48px 54px;
+    background-color: #FA7453;
+    border-radius: 12px;
+    z-index: 2;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+
+.premium p {
+    margin-top: 22px;
+    margin-bottom: 39px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FCFAF9;
+
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin-right: 16px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+
+.price p {
+    margin: 0;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+
+.ios-download-btn {
+    margin-top: 46px;
+    margin-bottom: 16px;
+    padding: 15px 93px 14px;
+    display: flex;
+    align-items: center;
+    background-color: #191826;
+    border-radius: 12px;
+    border: none;
+}
+
+.ios-download-btn p {
+    margin: 0;
+    margin-left: 9px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+}
+
+.android-download-btn {
+    padding: 15px 75px 14px;
+    display: flex;
+    align-items: center;
+    background-color: #FCFAF9;
+    border-radius: 12px;
+    border: none;
+}
+
+.android-download-btn p {
+    margin: 0;
+    margin-left: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #191826;
+}
